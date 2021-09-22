@@ -9,7 +9,7 @@ namespace BinaryToDecimal
     sealed class Program
     {
         private readonly IBinaryToDecimalService _programService;
-        //teste
+      
         public Program(IBinaryToDecimalService binaryToDecimalService)
         {
             _programService = binaryToDecimalService;
@@ -40,7 +40,7 @@ namespace BinaryToDecimal
                 else if (response.Equals("N"))
                 {
                     continue;
-                }                    
+                }
             }
         }
 
